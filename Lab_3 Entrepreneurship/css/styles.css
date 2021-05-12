@@ -1,0 +1,360 @@
+/*Header styling*/
+header {
+	background-color:white;
+	text-transform: uppercase;
+}
+
+header img{
+	margin:10px 10px;
+	width:215px; 
+	height:80px;
+	display:inline-block;
+}
+header h1{
+	text-align:center;
+	font-weight: 400;
+	margin: 0;
+	padding: 10px;
+}
+/*Header styling*/
+
+body {
+	width:935px;
+	background-color:#B7DDE8;
+	margin: 0 auto;
+	font-family: arial, sans-serif;
+	font-style:normal;
+    border: 2px solid #000;
+}
+main {
+	background-color: white;
+	padding: 5px 30px;
+}
+table {
+	border: 2px groove #BEBEBE;
+	margin: 30px 30px;
+}
+th {
+	font-weight: 500;
+}
+
+/*Search bar styling*/
+#search {
+	float:right;
+	margin-top: 50px;
+}
+#search input
+{
+	border: 1px solid black;
+	padding: 3px 10px;
+}
+#search input[type=submit]
+{
+	background:#92CDDC;
+	color:white;
+	margin: 0px 10px;
+}
+/*Search bar styling*/
+
+/*Navigation list styling*/
+nav {
+	background-color:white;
+    border: 2px solid #000;
+	border-style: solid none;
+	text-transform: uppercase;
+	font: 1em arial, sans-serif;
+	font-weight: 400;
+}
+nav ul{
+    list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display:flex;
+	flex-wrap: nowrap;
+}
+nav ul li {
+	display:inline-flex;
+	margin: 0;
+	padding: 0;
+}
+nav ul li:not(:last-child)
+{
+    border-right: 2px solid #000;
+}
+nav ul li a
+{
+	width:150px;
+	display:inline-block;
+	text-decoration:none;
+	font-weight:500;
+	text-align:center;
+	line-height:30px;
+	color:black;
+}
+nav ul li a:hover {
+	background-color:#7BDCF6;
+}
+nav ul li a.current {
+	background-color:#4BACC6;
+	color:white;
+}
+/*Navigation list styling*/
+
+/*Styling for each element section in the periodic table*/
+.element {
+	font-size: 15px;
+	display:block; 
+	height:53px;
+	text-decoration:none;
+	font-family:calibri;
+	
+}
+.element p{
+	margin: 0 0;
+	color:black;
+}
+.element strong {
+	font-weight:bold;
+	text-decoration: underline;
+	color:#1944F3;
+}
+/*Styling for each element section in the periodic table*/
+
+/* Periodic table key styling*/
+#colorCodes
+{
+	border: 2px groove #BEBEBE;
+	width:450px;
+	margin-left:30px;
+	background: linear-gradient(white, #EEE);
+	padding: 10px;
+}
+.cc {
+	display:inline-flex;
+	width:200px;
+}
+.cc div {
+	display:inline-block;
+	width:30px;
+	height:30px;
+}
+.cc p{ 
+	display:inline;
+	color:#1974B3;
+	font-weight:bold;
+	font-size:12px;
+	line-height:30px;
+	margin:0 5px;
+}
+/* Periodic table key styling*/
+
+/*Element name styling from Alkali to Unknown*/
+.alkali {
+	background-color:#29A3CC;
+}
+a.alkali:hover,
+a.alkali:hover p,
+a.alkali:hover strong{
+	background-color:#2cbbea;
+	color:white;
+}
+.alkaline_earth {
+	background-color:#CCA37A;
+}
+a.alkaline_earth:hover,
+a.alkaline_earth:hover p,
+a.alkaline_earth:hover strong{
+	background-color:#ddac71;
+	color:white;
+}
+
+.lanthanides {
+	background-color:#7ACCA3;
+}
+a.lanthanides:hover,
+a.lanthanides:hover p,
+a.lanthanides:hover strong{
+	background-color:#3de5c3;
+	color:white;
+}
+
+.actinides {
+	background-color:#29A3A3;
+}
+a.actinides:hover,
+a.actinides:hover p,
+a.actinides:hover strong{
+	background-color:#096363;
+	color:white;
+}
+
+.transition {
+	background-color:#52CC52;
+}
+a.transition:hover,
+a.transition:hover p,
+a.transition:hover strong{
+	background-color:#6ff92f;
+	color:white;
+}
+
+.nonmetal {
+	background-color:#CCCC00;
+}
+a.nonmetal:hover,
+a.nonmetal:hover p,
+a.nonmetal:hover strong{
+	background-color:#e7ff16;
+	color:white;
+}
+
+.posttransition {
+	background-color:#CCA3A3;
+}
+a.posttransition:hover,
+a.posttransition:hover p,
+a.posttransition:hover strong{
+	background-color:#e8ac9b;
+	color:white;
+}
+
+.halogens {
+	background-color:#E65C5C;
+}
+a.halogens:hover,
+a.halogens:hover p,
+a.halogens:hover strong{
+	background-color:#B61C1C;
+	color:white;
+}
+
+.metalloid {
+	background-color:#E68A8A;
+}
+a.metalloid:hover,
+a.metalloid:hover p,
+a.metalloid:hover strong{
+	background-color:#B64A4A;
+	color:white;
+}
+
+.noblegas {
+	background-color:#CC7ACC;
+}
+a.noblegas:hover,
+a.noblegas:hover p,
+a.noblegas:hover strong{
+	background-color:#8C3A8C;
+	color:white;
+}
+
+.unknown {
+	background-color:#FDFEFE  ;
+}
+a.unknown:hover,
+a.unknown:hover p,
+a.unknown:hover strong{
+	background-color:#AAA;
+	color:white;
+}
+/*Element name styling from Alkali to Unknown*/
+
+#Elementinfo {
+	float:left;
+	width:250px;
+}
+#Elementinfo > *{
+	padding: 2px 0px;
+	margin-bottom:5px;
+	border: 2px solid black;
+}
+#Elementinfo h2 {
+	padding-left: 7px;
+	border-style: none;
+}
+
+#Elementinfo #specs table{
+	border-style:none;
+	font-size:11px;
+	margin: 0 auto;
+}
+
+#Elementinfo img{
+	display:block;
+	margin: 0 auto;
+	border: 2px solid black;
+}
+
+#Elementinfo p{
+	text-align:center;
+	border-style: none;
+	margin-top:5px;
+}
+
+#description{
+	width:500px;
+	border: 2px solid black;
+	display:inline-block;
+	margin: 0 10px;
+	padding: 10px;
+}
+#description h3 {
+	margin-bottom: 0;
+}
+
+#Elements {
+	display:block;
+	float:right;
+	width:64px;
+}
+
+#Elements a{
+	text-decoration:none;
+	color:black;
+	border: 2px solid black;
+	display:inline-block;
+	font-size:16px;
+	padding:5px;
+	margin-bottom: 20px;
+	width:50px;
+	height:50px;
+}
+#Elements #current,
+#Elements #current p,
+#Elements #current strong{
+	background-color:#FFFF80;
+	color:black;
+}
+
+#Elements a > p{
+	margin:0;
+	font-size:13px;
+}
+
+/*Footer styling*/
+footer {
+	background-color:white;
+	padding: 5px 30px;
+}
+
+
+footer hr {
+	border-style:solid;
+}
+footer ul {
+	display:table;
+	margin:0;
+	padding:0;
+	list-style-type:none;
+	width:100%;
+}
+footer ul li {
+	display:table-cell;
+	width:16%;
+	text-align:center;
+}
+footer ul li a {
+	text-align:center;
+	text-decoration:none;
+	color:black;
+}

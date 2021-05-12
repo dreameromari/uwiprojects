@@ -1,0 +1,42 @@
+<html>
+<head>
+ <title> Login </title>
+ <link rel="stylesheet" type="text/css" href="style.css">
+ <meta charset= "UTF-8">
+</head>
+ <body>
+  <div class= "login-box">
+      <h1>Login</h1>
+	  <form>
+	  <p>Email</p>
+	  <input type="email"name="email" onfocusout="valid(email.value)" placeholder="Enter email">
+	  <p>Password</p>
+	  <input type="password"  name="password" placeholder=" Enter password">
+	  <input type="submit" name="submit" value="Sign In">
+	  <a href="signup.html"> Sign Up Here</a>
+	  </form>
+  
+  </div>
+  <script>
+  function valid($email)
+  {
+   var xhttp=new XMLHttpRequest();
+   xhttp.open("GET",isUser.php?email="+$email,true);
+   xhttp.onreadystatechange=function()
+   {
+   if(this.readystate ==4 && this.status ==200)
+   {
+     if(xhttp.responseText == false)
+	 {
+   Document.getElementByID("login-box").innerHTML = "InCorrect Email Address";
+   }
+   else{
+   document.getElementByID("login-box").innerHTML = "Correct Email Address";
+   innerHttp=this.responseText;
+   }
+   }
+   xhttp.send();
+   }
+   </script>
+ </body>
+</html>

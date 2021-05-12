@@ -1,0 +1,49 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: url(image.jpeg);
+	background-size: cover;
+	background-position: center;
+	font-family: sans-serif;
+}
+.number-box{
+	width:320px;
+	height:420px;
+	background: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+}
+.number-box p{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+.number-box input{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.number-box input[type="number"], input[type="number"]
+{
+	border: none;
+	border-bottom: 1px solid #fff;
+	outline: none;
+	height: 20px;
+	font-size: 16px;
+}
+.number-box input[type="submit"]
+{
+	border: none;
+	outline: none;
+	height: 30px;	
+}
+.number-box input[type="submit"]:hover
+{
+	cursor: pointer;
+	background: #5DADE2;
+	color: #000;
+}

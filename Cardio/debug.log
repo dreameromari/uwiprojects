@@ -1,0 +1,5 @@
+[0929/121225.666:WARNING:minidump_to_upload_parameters.cc(66)] duplicate annotation name plat, discarding value Win64
+[0929/121225.681:WARNING:minidump_to_upload_parameters.cc(66)] duplicate annotation name prod, discarding value OperaDesktop
+[0929/121225.681:WARNING:minidump_to_upload_parameters.cc(66)] duplicate annotation name ver, discarding value 55.0.2994.61
+[0929/121225.681:WARNING:minidump_to_upload_parameters.cc(66)] duplicate annotation name channel, discarding value Stable
+[0929/121225.681:WARNING:minidump_to_upload_parameters.cc(66)] duplicate annotation name ptype, discarding value gpu-process

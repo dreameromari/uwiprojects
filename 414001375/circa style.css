@@ -1,0 +1,30 @@
+body {
+    background-color: #5dade2;
+	background-image: url("Artificial.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center-right;
+	opacity: 0.8;
+	font-family: Calibri;
+	font-size: 110%;
+}
+h1{
+	font: bold;
+	font-family: Rockwell;
+	text-align: center;
+	color: black;
+	
+}
+h2{
+	font-family: Times New Roman;
+	
+}	
+
+#wrapper {
+		width: 1200px;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 10px;
+		background-color: #B3B6B7;
+		
+}

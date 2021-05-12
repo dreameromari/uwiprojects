@@ -1,0 +1,291 @@
+html{
+  font-family: 'Barlow', serif;
+  margin: 0px;
+  padding: 0px;
+  height:auto;
+  overflow-x: hidden;
+}
+
+header{
+	top:0;
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+}
+
+header img{
+	padding-top:15px;
+	padding-left:20px;
+}
+
+nav{
+	border-bottom: solid thin white;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0;
+  overflow: hidden;
+  /*background-color:#ff8000;*/
+	/*background: linear-gradient(to bottom right ,goldenrod, #ff8000);*/
+	background: white;
+}
+
+li {
+    float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 4px 20px;
+	padding-top:25px;
+	padding-bottom:22px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  /*color: #0000ff;*/
+	color: silver;;
+	transition: color .25s;
+}
+
+.active {
+	/*color:  #e6e6ff;*/
+	/*color: white;*/
+}
+
+body{
+	font-family: 'Montserrat', serif;
+	margin-top:65px;
+	margin-left:0px;
+	margin-right:0px;
+	margin-bottom:0px;
+  height:auto;
+	overflow-x: hidden;
+	/*background-color: lightblue;*/
+}
+/*End of Header Styling*/
+/*Start of Features offered*/
+.feature{
+	width: 250px;
+	margin: 90px 98px;
+	float:left;
+}
+.feature::after{
+	clear:both;
+}
+
+.feature img{
+	width:150px;
+	/*padding: 0px 50px;*/
+}
+.feature p{
+	font-weight: lighter;
+	font-size: 20px;
+}
+
+.feature h3{
+	font-size: 25px;
+}
+/*End of Features Offered*/
+/*Start of Problem*/
+#problem{
+	float:right;
+	width: 20%;
+	margin-top:190px;
+	margin-left: 70%;
+	padding: 20px 30px;
+	/*color:darkblue;*/
+	position: absolute;
+	background: whitesmoke;
+	font-size: 20px;
+	background: white;
+	border-top: solid thick gainsboro;
+	/*box-shadow: 1px 1px 2px #888888;*/
+}
+/*End of Problem*/
+
+
+#slogan{
+	margin-left: 50px;
+	font-size: 30px;
+	margin-right: auto;
+	padding: 50px 0px;
+	padding-left: 60px;
+}
+
+#student{
+	padding-left:40px;
+}
+
+#organised{
+	padding-left:50px;
+}
+
+#Heading{
+  background: linear-gradient(to bottom right ,skyblue, #2f85be);
+  margin: 0px;
+  padding: 0px;
+  height: 700px;
+  /*clear:both;*/
+}
+
+#Heading h1{
+  color: white;
+  padding-top: 19%;
+  padding-left: 17%;
+  padding-right: 0px;
+  float:left;
+}
+
+#Heading img{
+  padding-top: 5%;
+  padding-left:7%;
+  height: 500px;
+  float:left;
+}
+
+#PreAmb{
+  font-size: 30px;
+  padding: 3%;
+}
+
+#PreAmb img{
+  width: 40%;
+}
+
+.image{
+  width: 50%;
+  float: left;
+  margin: 0px;
+  padding: none;
+}
+
+.words{
+  text-align: justify;
+  margin: 0px;
+  padding-left: 5%;
+  padding-right: 5%;
+  width: 40%;
+  color: white;
+  float: left;
+  background: #2f85be;
+  font-size: 16px;
+}
+
+#First{
+  height: 259px;
+  padding-top: 120px;
+}
+
+#SignUp{
+  height: 260px;
+  padding-top: 120px;
+}
+
+#dashboard{
+  height: 249.2px;
+  padding-top: 130px;
+
+}
+
+#Value{
+  height: 229.7px;
+  padding-top: 150px;
+}
+
+#Explain{
+  height: 299.4px;
+  padding-top: 80px;
+}
+
+#Last{
+  width: 100%;
+  clear:both;
+}
+
+#Mockup{
+  background-color: #2f85be;
+}
+
+.line{
+  border-top: solid;
+  border-width: thin;
+  width: 100%;
+	color: black;
+}
+
+#Meet{
+	font-size: 25px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+
+.mLabels{
+	color:darkblue;
+}
+
+#AboutWrapper{
+	/*width: 900px;*/
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+	/*padding: 10px;*/
+	/*background-color: grey;*/
+}
+
+#AboutWrapper img{
+	width: 500px;
+	height: 500px;
+}
+
+#AboutWrapper section{
+	width: 500px;
+	height: 300px;
+	font-size: 20px;
+}
+
+#AboutWrapper p{
+	text-align: justify;
+}
+
+#DshonQuote{
+	padding: 100px 149px 100px 200px;
+	background: tomato;
+}
+
+#DamarQuote{
+	padding: 100px 299px 100px 50px;
+	background: lightsteelblue;
+}
+
+#SylvesterQuote{
+	padding: 100px 149px 100px 200px;
+	background: #2f85be;
+}
+
+#TremelQuote{
+	padding: 100px 297px 100px 50px;
+	background: lightcoral;
+}
+
+.left{
+	float:left;
+}
+
+.left::after{
+	clear: both;
+}
+/*TABLE STUFF TO ADD TO OUR CSS FILE*/
+table, th, td{
+	border: 1px solid black;
+	text-align: center;
+	color: blue;
+}
+#logos{
+	text-align:center;
+}
